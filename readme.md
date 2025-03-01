@@ -51,6 +51,11 @@ The main script [fingercounter.py] performs the following tasks:
 6. Displays the count of fingers
 7. Shows the FPS on the screen.
 
+Landmarks
+The hand tracking module uses landmarks to identify key points on the hand. These landmarks are used to determine the position and orientation of the fingers. Below is an image from MediaPipe showing the landmarks on a hand:
+
+<img alt="Hand Landmarks" src="https://ai.google.dev/static/mediapipe/images/solutions/hand-landmarks.png">
+
 ## Example
 
 When you run the script, it will open a window showing the webcam feed. The number of fingers detected will be displayed on the screen.
